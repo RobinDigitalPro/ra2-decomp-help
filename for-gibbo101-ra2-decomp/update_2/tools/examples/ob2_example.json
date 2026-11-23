@@ -1,0 +1,7 @@
+{
+  "Root":   {"size": 300, "sites": ["Small", "Big", "Wrap", "Extern"]},
+  "Small":  {"size": 30,  "sites": []},
+  "Big":    {"size": 700, "sites": []},
+  "Wrap":   {"size": 60,  "sites": ["Middle", "Small"]},
+  "Middle": {"size": 280, "sites": []}
+}

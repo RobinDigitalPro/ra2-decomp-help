@@ -1,0 +1,10 @@
+{
+  "function": "example: two integer webs and a loop counter",
+  "webs": ["count", "source", "index"],
+  "blocks": [
+    {"name": "entry", "live": ["count", "source"], "refs": {"count": 1, "source": 1}},
+    {"name": "loop",  "live": ["count", "source", "index"], "depth": 1,
+     "refs": {"count": 1, "source": 2, "index": 3}},
+    {"name": "exit",  "live": ["count"], "refs": {"count": 1}}
+  ]
+}
